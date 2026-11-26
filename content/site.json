@@ -51,6 +51,7 @@
     }
   },
   "experience": {
+    "show_section": false,
     "kicker": "Experience",
     "heading": "Six roles, one through line: strategy that lands in production",
     "jobs": [
@@ -180,7 +181,8 @@
     "email": "katerynabaran@gmail.com",
     "linkedin": "https://www.linkedin.com/in/kateryna-baran/",
     "resume": "/media/Kateryna_Baran_Resume.pdf",
-    "resume_label": "Download resume (PDF)"
+    "resume_label": "Download resume (PDF)",
+    "show_resume": false
   },
   "footer": {
     "name": "Kateryna Baran",
