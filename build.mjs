@@ -30,7 +30,7 @@ const stop = (key, globeKey) => {
       </ul>` : ''}
     </article>`;
 };
-const resume = media(c.contact?.resume);
+const resume = c.contact?.show_resume !== false ? media(c.contact?.resume) : '';
 const GAUGE_SVG = '<svg viewBox="0 0 120 120" aria-hidden="true"><circle class="g-track" cx="60" cy="60" r="52"/><circle class="g-arc" cx="60" cy="60" r="52"/></svg>';
 
 const html = `<!doctype html>
@@ -87,7 +87,7 @@ ${STOP_ORDER.map(([k, g]) => stop(k, g)).join('\n\n')}
   </div>
 </section>
 
-<section class="roles" aria-labelledby="roles-h">
+${c.experience?.show_section !== false ? `<section class="roles" aria-labelledby="roles-h">
   <div class="wrap">
     <p class="eyebrow">${esc(c.experience?.kicker)}</p>
     <h2 id="roles-h" class="section-h">${esc(c.experience?.heading)}</h2>
@@ -102,7 +102,7 @@ ${list(c.experience?.jobs).map(j => `      <article class="card">
       </article>`).join('\n\n')}
     </div>
   </div>
-</section>
+</section>` : ''}
 
 <section class="impact" aria-labelledby="impact-h">
   <div class="wrap">

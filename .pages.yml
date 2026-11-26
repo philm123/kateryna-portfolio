@@ -70,6 +70,7 @@ content:
         label: Experience (role cards)
         type: object
         fields:
+          - { name: show_section, label: Show the Experience section, type: boolean, default: true }
           - { name: kicker, label: Section label, type: string }
           - { name: heading, label: Heading, type: string }
           - name: jobs
@@ -131,6 +132,7 @@ content:
               extensions: [pdf]
               rename: false
           - { name: resume_label, label: Resume button text, type: string }
+          - { name: show_resume, label: Show the Download resume button, type: boolean, default: true }
 
       - name: footer
         label: Footer
