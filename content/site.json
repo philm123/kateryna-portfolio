@@ -1,0 +1,194 @@
+{
+  "hero": {
+    "eyebrow": "Executive Transformation Leader · Fractional CPO and AI Strategist",
+    "name": "Kateryna Baran",
+    "intro": "AI strategist who ships. 15+ years advising C-suite leaders and taking AI from 0-to-1 discovery to production ROI.",
+    "status": "Open to roles · Mexico City and Atlanta · English, Spanish, Russian",
+    "show_status_dot": true,
+    "scroll_cue": "Scroll to fly the route"
+  },
+  "stops": {
+    "kyiv": {
+      "label": "01 · Kyiv",
+      "heading": "Where the flight path starts",
+      "body": "B.S. in Aviation from National Aviation University in Kyiv, Ukraine.",
+      "facts": []
+    },
+    "daytona": {
+      "label": "02 · Daytona Beach",
+      "heading": "MBA in Aviation",
+      "body": "Master of Business Administration in Aviation from Embry-Riddle Aeronautical University in Daytona Beach, Florida.",
+      "facts": []
+    },
+    "atlanta": {
+      "label": "03 · Atlanta · Delta Air Lines · 2008–2017",
+      "heading": "Nine years at airline scale",
+      "body": "",
+      "facts": [
+        "**$25M** strategic portfolio governed across network planning and revenue management",
+        "Technology and data integration strategy for the **Delta / Northwest / Air France / KLM** joint venture",
+        "Data accuracy lifted to **97%** through modernized ETL pipelines and governance"
+      ]
+    },
+    "mexico": {
+      "label": "04 · Mexico City · Aeroméxico · 2017–2018",
+      "heading": "Corporate strategy for a national carrier",
+      "body": "",
+      "facts": [
+        "A landmark **$50M** strategic partnership negotiated and secured",
+        "A 5-year fleet strategy valued at **$19M a year**, optimizing network revenue by **$0.6B**",
+        "Cross-border consensus with C-suite and regional leaders across Latin America"
+      ]
+    },
+    "ai": {
+      "label": "05 · The AI years · 2018–2026",
+      "heading": "Then she changed altitude",
+      "body": "From flying the routes to seeing the whole system. Agentic AI assistants with human-in-the-loop guardrails, RAG knowledge engines and production AI matching models, built for clients across North America, Latin America and Europe.",
+      "facts": [
+        "Enterprise AI pilots that eliminated **25%** of manual operational tasks",
+        "Predictive matching in production: pipelines cut from **5 to 3 weeks**, match rates up to **80%**"
+      ]
+    }
+  },
+  "experience": {
+    "kicker": "Experience",
+    "heading": "Six roles, one through line: strategy that lands in production",
+    "jobs": [
+      {
+        "when": "2024–2026 · Remote",
+        "company": "Sparq",
+        "title": "AI Strategist and Principal Delivery Leader",
+        "bullets": [
+          "Enterprise AI and workflow automation pilots that eliminated **25%** of manual operational tasks",
+          "Post-merger systems realignment that cut analysis cycle times by **50%**"
+        ]
+      },
+      {
+        "when": "2022–2025 · Remote",
+        "company": "Think Consulting",
+        "title": "Senior Technical Program Manager and Strategy Consultant",
+        "bullets": [
+          "A flagship **$12M** digital modernization delivered **30%** under budget",
+          "API-first cloud modernization that secured **$15M** in expansion funding and enabled 2x operational scalability"
+        ]
+      },
+      {
+        "when": "2018–2024 · Remote",
+        "company": "CyberBae.team",
+        "title": "Principal Transformation Consultant and Fractional CPO",
+        "bullets": [
+          "Owned 0-to-1 product discovery, RAG knowledge engines and decision intelligence strategy for high-impact client ventures",
+          "Led discovery and architecture for an enterprise data catalog, cutting onboarding lead times by **10%**"
+        ]
+      },
+      {
+        "when": "2020–2022 · Remote",
+        "company": "EPAM Anywhere",
+        "title": "Senior Product and Program Manager, Global Scaling",
+        "bullets": [
+          "Predictive AI matching models in production: pipelines from **5 to 3 weeks**, match rates up to **80%**",
+          "KPI frameworks and Tableau dashboards for a mobile gaming ecosystem: **$0.5M** incremental revenue and **10%** retention gains"
+        ]
+      },
+      {
+        "when": "2017–2018 · Mexico City",
+        "company": "Aeroméxico",
+        "title": "Senior Manager, Corporate Strategy Planning",
+        "bullets": [
+          "Competitive and regulatory market intelligence that secured a **$50M** strategic partnership",
+          "5-year fleet strategy valued at **$19M a year**, optimizing network revenue by **$0.6B**"
+        ]
+      },
+      {
+        "when": "2008–2017 · Atlanta",
+        "company": "Delta Air Lines",
+        "title": "Manager, Revenue Development, Strategy and Reporting",
+        "bullets": [
+          "Governed a **$25M** strategic portfolio, speeding project delivery by **10%**",
+          "Technology and data integration strategy for the Delta / Northwest / Air France / KLM joint venture"
+        ]
+      }
+    ]
+  },
+  "impact": {
+    "kicker": "Impact",
+    "heading": "The instruments",
+    "gauges": [
+      {
+        "value": "$12M–$50M+",
+        "fill": 100,
+        "caption": "Enterprise portfolio and partnership governance"
+      },
+      {
+        "value": "30%",
+        "fill": 30,
+        "caption": "Under budget on a $12M modernization, plus $15M expansion secured"
+      },
+      {
+        "value": "25%",
+        "fill": 25,
+        "caption": "Manual operations removed through enterprise AI pilots"
+      },
+      {
+        "value": "$0.6B",
+        "fill": 100,
+        "caption": "Network revenue optimized via a $19M a year, 5-year fleet strategy"
+      }
+    ]
+  },
+  "capabilities": {
+    "kicker": "Capabilities",
+    "heading": "Boardroom strategy, hands-on AI execution",
+    "items": [
+      {
+        "title": "Enterprise AI strategy",
+        "body": "Agentic workflows, RAG and prompt engineering"
+      },
+      {
+        "title": "0-to-1 product execution",
+        "body": "API-first and cloud modernization on AWS and Azure"
+      },
+      {
+        "title": "Capital and portfolio governance",
+        "body": "SOWs, P&L and ROI optimization"
+      },
+      {
+        "title": "Organizational transformation",
+        "body": "M&A integration and operating models"
+      },
+      {
+        "title": "Performance and impact intelligence",
+        "body": "OKRs, KPIs, Tableau and data catalogs"
+      },
+      {
+        "title": "Global executive leadership",
+        "body": "Cross-border US and LATAM alignment"
+      }
+    ],
+    "credentials": [
+      "MBA in Aviation, Embry-Riddle",
+      "B.S. in Aviation, National Aviation University",
+      "Harvard Business School leadership courses",
+      "IBM AI Product Manager",
+      "AIPMM Certified",
+      "SAFe Scrum Master",
+      "Claude AI Certification"
+    ]
+  },
+  "contact": {
+    "heading": "Let's talk about what you need to ship",
+    "email": "katerynabaran@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/kateryna-baran/",
+    "resume": "/media/Kateryna_Baran_Resume.pdf",
+    "resume_label": "Download resume (PDF)"
+  },
+  "footer": {
+    "name": "Kateryna Baran",
+    "year": "2026"
+  },
+  "seo": {
+    "title": "Kateryna Baran · AI strategist who ships",
+    "description": "Kateryna Baran: Executive Transformation Leader, Fractional CPO and AI Strategist.",
+    "hide_from_search": true
+  }
+}

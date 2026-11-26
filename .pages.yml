@@ -1,0 +1,148 @@
+media:
+  input: media
+  output: /media
+  categories: [document, image]
+
+content:
+  - name: site
+    label: Website content
+    type: file
+    path: content/site.json
+    format: json
+    fields:
+      - name: hero
+        label: Top of page
+        type: object
+        fields:
+          - { name: eyebrow, label: Small line above your name, type: string }
+          - { name: name, label: Your name, type: string }
+          - { name: intro, label: Introduction, type: text }
+          - { name: status, label: Status line (for example Open to roles), type: string }
+          - { name: show_status_dot, label: Show the green dot before the status line, type: boolean, default: true }
+          - { name: scroll_cue, label: Scroll hint, type: string }
+
+      - name: stops
+        label: Flight path (the five stops on the globe)
+        type: object
+        fields:
+          - name: kyiv
+            label: "Stop 1 · Kyiv"
+            type: object
+            fields:
+              - { name: label, label: Small line above the heading (city and years), type: string }
+              - { name: heading, label: Heading, type: string }
+              - { name: body, label: Paragraph (optional), type: text }
+              - { name: facts, label: Facts (optional), type: text, list: true }
+          - name: daytona
+            label: "Stop 2 · Daytona Beach"
+            type: object
+            fields:
+              - { name: label, label: Small line above the heading (city and years), type: string }
+              - { name: heading, label: Heading, type: string }
+              - { name: body, label: Paragraph (optional), type: text }
+              - { name: facts, label: Facts (optional), type: text, list: true }
+          - name: atlanta
+            label: "Stop 3 · Atlanta"
+            type: object
+            fields:
+              - { name: label, label: Small line above the heading (city, company, years), type: string }
+              - { name: heading, label: Heading, type: string }
+              - { name: body, label: Paragraph (optional), type: text }
+              - { name: facts, label: Facts (optional), type: text, list: true }
+          - name: mexico
+            label: "Stop 4 · Mexico City"
+            type: object
+            fields:
+              - { name: label, label: Small line above the heading (city, company, years), type: string }
+              - { name: heading, label: Heading, type: string }
+              - { name: body, label: Paragraph (optional), type: text }
+              - { name: facts, label: Facts (optional), type: text, list: true }
+          - name: ai
+            label: "Stop 5 · The AI years (camera climbs to orbit)"
+            type: object
+            fields:
+              - { name: label, label: Small line above the heading (title and years), type: string }
+              - { name: heading, label: Heading, type: string }
+              - { name: body, label: Paragraph (optional), type: text }
+              - { name: facts, label: Facts (optional), type: text, list: true }
+
+      - name: experience
+        label: Experience (role cards)
+        type: object
+        fields:
+          - { name: kicker, label: Section label, type: string }
+          - { name: heading, label: Heading, type: string }
+          - name: jobs
+            label: Roles (newest first)
+            type: object
+            list:
+              collapsible: { collapsed: true, summary: "{company}" }
+            fields:
+              - { name: when, label: Years and location, type: string }
+              - { name: company, label: Organization, type: string }
+              - { name: title, label: Title, type: string }
+              - { name: bullets, label: Results (two work best), type: text, list: true }
+
+      - name: impact
+        label: Impact gauges
+        type: object
+        fields:
+          - { name: kicker, label: Section label, type: string }
+          - { name: heading, label: Heading, type: string }
+          - name: gauges
+            label: Gauges (up to four)
+            type: object
+            list:
+              min: 1
+              max: 4
+              collapsible: { collapsed: true, summary: "{value}" }
+            fields:
+              - { name: value, label: Number shown in the dial, type: string }
+              - { name: fill, label: How full the dial is (0 to 100), type: number }
+              - { name: caption, label: What it means, type: text }
+
+      - name: capabilities
+        label: Capabilities and credentials
+        type: object
+        fields:
+          - { name: kicker, label: Section label, type: string }
+          - { name: heading, label: Heading, type: string }
+          - name: items
+            label: Capabilities
+            type: object
+            list:
+              collapsible: { collapsed: true, summary: "{title}" }
+            fields:
+              - { name: title, label: Title, type: string }
+              - { name: body, label: Short description, type: string }
+          - { name: credentials, label: Education and certifications, type: string, list: true }
+
+      - name: contact
+        label: Contact and resume
+        type: object
+        fields:
+          - { name: heading, label: Heading, type: string }
+          - { name: email, label: Email, type: string }
+          - { name: linkedin, label: LinkedIn URL, type: string }
+          - name: resume
+            label: Resume PDF (upload a new one to replace it)
+            type: file
+            options:
+              extensions: [pdf]
+              rename: false
+          - { name: resume_label, label: Resume button text, type: string }
+
+      - name: footer
+        label: Footer
+        type: object
+        fields:
+          - { name: name, label: Name, type: string }
+          - { name: year, label: Year, type: string }
+
+      - name: seo
+        label: Search and sharing
+        type: object
+        fields:
+          - { name: title, label: Browser tab title, type: string }
+          - { name: description, label: Search description (under 160 characters), type: text }
+          - { name: hide_from_search, label: Hide from search engines (turn off when you are ready to be found), type: boolean, default: true }
